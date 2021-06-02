@@ -34,7 +34,7 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('courier::contact.email')->with([
+        return $this->markdown('contact::contact.email')->with([
             'message' => $this->message,
             'name' => $this->name,
             'email' => $this->email]);
