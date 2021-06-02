@@ -1,0 +1,19 @@
+{
+    "name": "pkgtest/contact",
+    "description": "This will send email to admin and save it in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Montaser",
+            "email": "montaser.alfrookh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "Pkgtest\\Contact\\": "src/"
+        }
+      }
+}
