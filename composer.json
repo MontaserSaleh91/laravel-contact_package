@@ -15,5 +15,12 @@
         "psr-4": {
           "Pkgtest\\Contact\\": "src/"
         }
-      }
+      },
+      "extra": {
+        "laravel": {
+            "providers": [
+                "Pkgtest\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
 }
